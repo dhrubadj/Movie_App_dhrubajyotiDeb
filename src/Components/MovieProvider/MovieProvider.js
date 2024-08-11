@@ -82,7 +82,6 @@ const MovieProvider = () => {
       {loading && <p>Loading...</p>}
       {error && <p>{error}</p>}
       {!loading && !error && movies.length > 0 ? (
-        //<main className='main'>
         <div className="movie-list">  
         {movies.map((movie) => (
             <MovieStore
